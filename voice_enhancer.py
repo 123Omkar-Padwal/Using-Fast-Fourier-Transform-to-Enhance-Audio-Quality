@@ -31,7 +31,7 @@ def plot_frequency_spectrum(fs,audio):
 def voice_enhancer(fs,audio):
     yfft = np.fft.fft(audio)
     xfft = np.linspace(0,fs,len(yfft))
-    for lower_bound, upper_bound, enhancer in ((120,180,10),(0,0,0)):
+    for lower_bound, upper_bound, enhancer in ((120,180,15),(0,0,0)):
         y_index1 = int(np.round((len(audio)/fs)*lower_bound))
         y_index2 = int(np.round((len(audio)/fs)*upper_bound))
         yfft[y_index1:y_index2+1]*=enhancer
