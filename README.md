@@ -9,14 +9,22 @@ Recorded the voice of one member of the group as an uncompressed WAV file.
 
 Following recording specification were followed:
 
-Recording must be based on the voice of one member of the team
+1]Recording must be based on the voice of one member of the team
 
-Recoding should be of one complete sentence in any language
+2]Recoding should be of one complete sentence in any language
 
-Recording must be uncompressed WAV file
+3]Recording must be uncompressed WAV file
 
-Recording must be of a sampling Rate of 44kHz or higher
+4]Recording must be of a sampling Rate of 44kHz or higher
 
-Recording must be audio must not exhibit clipping
+5]Recording must be audio must not exhibit clipping
 
-Recording must contain the full audio spectrum up to 20kHz 
+6]Recording must contain the full audio spectrum up to 20kHz 
+
+# Contributors
+
+1] Kanae Kurita
+
+2] Omkar Padwal
+
+3] Ankit Anand
